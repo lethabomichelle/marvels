@@ -32,53 +32,47 @@
 </head>
 
 <body class="stretched">
-	
+	<!-- Header
+		============================================= -->
+		<header id="header" data-menu-padding="15" data-sticky-shrink="false">
+			<div id="header-wrap">
+				<div class="container">
+					<div class="header-row">
+
+						<!-- Logo
+						============================================= -->
+						<div id="logo">
+							<a href="index.html">
+								<img class="logo-default" src="./images/logo.jpg" alt="Canvas Logo">
+							</a>
+						</div><!-- #logo end -->
+                        <ul style="display: flex; list-style: none;">
+                            <li class="menu-item current"><a class="menu-link" href="index.html"><div><i class="bi-house"></i>Home</div></a>
+                            <li class="menu-item"><a class="menu-link" href="services.html"><div><i class="uil uil-shopping-basket"></i>Our Services</div></a></li>
+                            <li class="menu-item"><a class="menu-link" href="membership.html"><div><i class="bi-people"></i>Membership</div></a></li>
+                            <li class="menu-item"><a class="menu-link" href="#gallery"><div><i class="uil uil-images"></i>Gallery</div></a></li>
+                            <li class="menu-item"><a class="menu-link" href="#reviews"><div><i class="bi-star-fill"></i>Reviews</div></a></li>
+                            <li class="menu-item"><a class="menu-link" href="contact.html"><div><i class="uil uil-map-marker"></i>Contact</div></a></li>
+                            <li class="menu-item"><a class="menu-link" href="sign_up.html"><div><i class="uil uil-user-circle "></i>Pofile</div></a></li>
+                        </ul>
+
+						<!-- Primary Navigation
+						============================================= -->
+						<!-- #primary-menu end -->
+
+					</div>
+				</div>
+			</div>
+			<div class="header-wrap-clone"></div>
+		</header><!-- #header end -->
 
 	<!-- Document Wrapper
 	============================================= -->
 	<div id="wrapper">
 
-	
-		<div class="container" style="margin: 0; padding-bottom: 0;">
-            <header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 border-bottom">
-            <div class="col-md-3 mb-2 mb-md-0">
-                <a href="/" class="d-inline-flex link-body-emphasis text-decoration-none">
-                <!-- <svg class="bi" width="40" height="32" role="img" aria-label="Bootstrap"><use xlink:href="#bootstrap"/></svg> -->
-                <img style="width: 5rem;" src="./images/logo.jpg" alt="logo">
-                </a>
-            </div>
-
-            <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
-                <li><a href="index.html" class="nav-link px-2 link-secondary">Home</a></li>
-                <li><a href="services.html" class="nav-link px-2">Services</a></li>
-                
-                <li><a href="contact.html" class="nav-link px-2">Contact</a></li>
-            </ul>
-
-            	<!-- <nav class="primary-menu">
-							
-							
-
-							<ul class="menu-container">
-							
-								
-								<ul class="sub-menu-container rounded-bottom">
-									
-									<li class="menu-item"><a class="menu-link" href="demo-recipes-contact.html"><div>Contact Us</div></a></li>
-							</ul>
-
-						</nav>#primary-menu end -->
-						
-
-					</div>
-				</div>
-			</div>
-			<div ></div>
-		</header><!-- #header end -->
-
 		<!-- Page Title
 		============================================= -->
-		<section class="page-title page-title-parallax parallax scroll-detect dark include-header" style="padding: 100px 0; margin: 0;">
+		<section class="page-title page-title-parallax parallax scroll-detect dark include-header" style="padding: 100px 0;">
 			<img src="salon.png" class="parallax-bg">
 			<div class="container">
 				<div class="page-title-row">
@@ -110,7 +104,7 @@
 							<p class="lead">Questions? Comments? Please fill out the Form or Email us at <a href="mailto:noreply@canvas.com">name@gmail.com</a>.</p>
 							<p>Thank you for being in touch!</p>
 							<div class="line line-sm"></div>
-							<p>Our beauty salon provides a tranquil sanctuary for all your beauty needs. Whether you\'re seeking a rejuvenating facial, a glamorous makeover, or a Hair cut, our skilled professionals are dedicated to delivering exceptional services tailored to your unique preferences.</p>
+							<p>Our beauty salon provides a tranquil sanctuary for all your beauty needs. Whether you're seeking a rejuvenating facial, a glamorous makeover, or a Hair cut, our skilled professionals are dedicated to delivering exceptional services tailored to your unique preferences.</p>
 							<p>Indulge in our comprehensive range of beauty treatments, including hair styling, manicures, pedicures, waxing, and more. We use only the finest products and techniques to ensure optimal results and a truly luxurious experience</p>
 						</div>
 						<div class="col-md-6">
@@ -180,32 +174,79 @@
 
 		<!-- Footer
 		============================================= -->
-		<footer id="footer" class="bg-white border-0">
-
+		<footer id="footer" class="dark" style="background-color: #D08591;">
 			<div class="container">
-
 				<!-- Footer Widgets
 				============================================= -->
-				
+				<div class="footer-widgets-wrap">
+
+					<div class="w-100">
+						<div class="heading-block text-center mb-0">
+							<h2>Need to make a Booking? <strong>Call +27 712 345 678</strong></h2>
+						</div>
+					</div>
+
+				</div><!-- .footer-widgets-wrap end -->
+			</div>
 
 			<!-- Copyrights
 			============================================= -->
-			<div id="copyrights" class="bg-light">
-
+			<div id="copyrights">
 				<div class="container">
-					<div class="row justify-content-between align-items-center">
-						<div class="col-sm-4 d-flex justify-content-sm-start mb-3 mb-sm-0 text-black-50">
-							Copyrights &copy; 2023 All Rights Reserved by Canvas Inc.
-						</div>
-						
-						<div class="col-sm-4 d-flex justify-content-sm-end">
+
+					<div class="row col-mb-30">
+						<div class="col-md-6 text-center text-md-start">
+							Copyrights &copy; LETHABO, MASEFAKO AND STELLA<br>
 							<div class="copyright-links"><a href="#">Terms of Use</a> / <a href="#">Privacy Policy</a></div>
 						</div>
+
+						<div class="col-md-6 text-center text-md-end">
+							<div class="d-flex justify-content-center justify-content-md-end">
+								<a href="#" class="social-icon si-small bg-transparent h-bg-facebook">
+									<i class="fa-brands fa-facebook-f"></i>
+									<i class="fa-brands fa-facebook-f"></i>
+								</a>
+
+								<a href="#" class="social-icon si-small bg-transparent h-bg-twitter">
+									<i class="fa-brands fa-twitter"></i>
+									<i class="fa-brands fa-twitter"></i>
+								</a>
+
+								<a href="#" class="social-icon si-small bg-transparent h-bg-google">
+									<i class="fa-brands fa-google"></i>
+									<i class="fa-brands fa-google"></i>
+								</a>
+
+								<a href="#" class="social-icon si-small bg-transparent h-bg-pinterest">
+									<i class="fa-brands fa-pinterest-p"></i>
+									<i class="fa-brands fa-pinterest-p"></i>
+								</a>
+
+								<a href="#" class="social-icon si-small bg-transparent h-bg-vimeo">
+									<i class="fa-brands fa-vimeo-v"></i>
+									<i class="fa-brands fa-vimeo-v"></i>
+								</a>
+
+								<a href="#" class="social-icon si-small bg-transparent h-bg-github">
+									<i class="fa-brands fa-github"></i>
+									<i class="fa-brands fa-github"></i>
+								</a>
+
+								<a href="#" class="social-icon si-small bg-transparent h-bg-yahoo">
+									<i class="fa-brands fa-yahoo"></i>
+									<i class="fa-brands fa-yahoo"></i>
+								</a>
+
+								<a href="#" class="social-icon si-small bg-transparent h-bg-linkedin">
+									<i class="fa-brands fa-linkedin"></i>
+									<i class="fa-brands fa-linkedin"></i>
+								</a>
+							</div>
+						</div>
 					</div>
+
 				</div>
-
 			</div><!-- #copyrights end -->
-
 		</footer><!-- #footer end -->
 
 	</div><!-- #wrapper end -->
